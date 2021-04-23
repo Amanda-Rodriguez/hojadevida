@@ -9,7 +9,7 @@ body{
     background-size:cover;
 }
 header{
-    background-image:url(fondomay3.jpg);
+    background-image:url(../imagenes/fondomay3.jpg);
     background-size: cover;
     position: relative;
     width: 100%;
