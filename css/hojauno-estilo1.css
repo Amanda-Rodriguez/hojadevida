@@ -42,8 +42,10 @@ h1{
     font-size:19px;
     font-family: "Marcellus", sans-serif;
     color: white;
-    mix-blend-mode: exclusion;
     
+}
+.seccion>p{
+    mix-blend-mode: exclusion;
 }
 
 .fotoperfil{
@@ -53,9 +55,8 @@ h1{
     background-image: url("../imagenes/foto.jpg");
     background-size: cover;
     background-position: center;
-    mix-blend-mode:hard-light;
 }
-.foto{
+.marco{
     border: solid white 3px;
     width: 350px;
     height: 300px;
@@ -64,4 +65,5 @@ h1{
 .texto{
     margin: 20px;
     line-height:1.5;
+    
 }
