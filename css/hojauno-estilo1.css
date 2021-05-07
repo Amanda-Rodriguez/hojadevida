@@ -11,59 +11,57 @@
     color: #FFF0A6;
     color: #468965;
 }
-
 body{
-    width: 100%;
+    width:960px;
     margin: 0;
     padding: 0;
     background-image: url("../imagenes/empty-blackboard.jpg");
-    background-position: center;  
+    background-position:center;
 }
 header{
-    background-position: 0 -30%;
     position: relative;
-    width: 100%;
-    height: 250px;
-    background-color: #468965;  
+    width: 900px;
+    height: 300px;
+    background-color:#468965;
     opacity: 0.3;
 }
-.title {
+h1{
     position: absolute;
     top: 30px;
-    font-family: 'Paytone One', sans-serif;
+    font-family:'Paytone One', sans-serif;
     margin: 0;
     font-size: 60px;
-    width: 100%;
-    height: 150px;
-    padding: 10px;
-    color: #FFAF3B;
+    color:#FFAF3B;
     text-align: center;
     mix-blend-mode: lighten;
 }
-
-.perfil{
-    padding:0 20px 0 20px;
-    text-align: justify; 
-    font-size: 19px;
+.seccion{
+    width: 100%;
+    margin: 20px; 
+    text-align: justify;
+    font-size:19px;
     font-family: "Marcellus", sans-serif;
     color: white;
     mix-blend-mode: exclusion;
     
 }
-.foto{ 
-    width: 250px;
+
+.fotoperfil{
+    width:250px;
     height: 250px;
-    margin: 5px auto 20px auto;
-    background-color: #468965;
+    margin: 20px;
     background-image: url("../imagenes/foto.jpg");
     background-size: cover;
     background-position: center;
+    mix-blend-mode:hard-light;
 }
-.item{
-    margin-top: 80px;
-    padding:0 20px 0 20px;
-    text-align: left;
-
+.foto{
+    border: solid white 3px;
+    width: 350px;
+    height: 300px;
+    margin: 20px;
 }
-
-
+.texto{
+    margin: 20px;
+    line-height:1.5;
+}
