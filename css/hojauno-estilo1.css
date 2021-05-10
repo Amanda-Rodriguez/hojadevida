@@ -15,15 +15,14 @@ body{
     min-width:320px;
     margin: 0;
     padding: 0;
-    background-image: url("../imagenes/empty-blackboard.jpg");
-    background-position:center;
-    
 }
 
 header{
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+      background-image: url("../imagenes/empty-blackboard.jpg");
+    background-position:left;
     
 }
 #fondo{
@@ -51,11 +50,16 @@ h1{
     text-align: center;
 }
 .seccion{
-    text-align: justify;
+    display: inline-block;
+    text-align: right;
     font-size:19px;
     color: white; 
-    
+    border: 30px solid transparent;
+    border-image:url("../imagenes/borde.png") 30 30 repeat;
+    background-image: url("../imagenes/empty-blackboard.jpg");
+    background-position:bottom;
 }
+
 .seccion>p,h2, h1, #comentario{
     mix-blend-mode: exclusion;
 }
@@ -86,4 +90,7 @@ h2{
     font-weight: normal;
     text-align: left;
     font-size: 40px;
+}
+#contenido{
+    
 }
