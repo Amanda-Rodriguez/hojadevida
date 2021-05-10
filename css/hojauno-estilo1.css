@@ -55,7 +55,8 @@ h1{
     font-size:19px;
     color: white; 
     border: 30px solid transparent;
-    border-image:url("../imagenes/borde.png") 30 30 repeat;
+    border-image:url("../imagenes/borde.png") 30 90 repeat;
+    border-bottom: collapse;
     background-image: url("../imagenes/empty-blackboard.jpg");
     background-position:bottom;
 }
@@ -65,19 +66,22 @@ h1{
 }
 
 .fotoperfil{
-    width:250px;
-    height: 250px;
-    margin-top: 20px;
-    margin-left:50px;
+    position: absolute;
+    transform-origin:right;
+    transform: translateX(50%)translateY(50%);
+    width:200px;
+    height: 190px;
     background-image: url("../imagenes/foto.jpg");
     background-size: cover;
     background-position: center;
 }
 .marco{
+    position: relative;
     border: solid white 3px;
-    width: 350px;
-    height: 300px;
+    width: 260px;
+    height: 220px;
     margin: auto;
+    text-align: center;
 }
 p{
     padding: 20px;
