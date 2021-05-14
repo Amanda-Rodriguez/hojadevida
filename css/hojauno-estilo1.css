@@ -54,11 +54,11 @@ h1{
     text-align: right;
     font-size:19px;
     color: white; 
-    border: 30px solid transparent;
-    border-image:url("../imagenes/borde.png") 30 90 repeat;
-    border-bottom: collapse;
-    background-image: url("../imagenes/empty-blackboard.jpg");
-    background-position:bottom;
+   /* border: 30px solid transparent;
+    border-image:url("../imagenes/hoja.png") 3 30 repeat;
+    border-bottom: collapse;*/
+    background-image: url("../imagenes/hoja2.jpg");
+    background-size: cover;
 }
 
 .seccion>p,h2, h1, #comentario{
@@ -67,8 +67,7 @@ h1{
 
 .fotoperfil{
     position: absolute;
-    transform-origin:right;
-    transform: translateX(50%)translateY(50%);
+    transform: translateX(30px)translateY(15px);
     width:200px;
     height: 190px;
     background-image: url("../imagenes/foto.jpg");
@@ -77,7 +76,7 @@ h1{
 }
 .marco{
     position: relative;
-    border: solid white 3px;
+    border: solid white 1px;
     width: 260px;
     height: 220px;
     margin: auto;
