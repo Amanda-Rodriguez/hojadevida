@@ -4,6 +4,9 @@
 nav{
     display: none;
 }
+#nav2{
+    display: none;
+}
 /*body{
     width: 100%;
     margin: 0;
