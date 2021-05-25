@@ -20,6 +20,7 @@ h1{
     font-size:100px;
     text-align: center;
 }
+
 #comentario{
     width: 100%;
     height: 240px;
@@ -34,7 +35,7 @@ h1{
 }
 nav{
     display: block;
-    position: relative;
+    position: fixed;
 }
 nav>ul{
     right: 0;
