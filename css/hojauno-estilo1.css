@@ -1,3 +1,11 @@
+@font-face{
+    font-family: "Marcellus";
+    src: url(../fuentes/Marcellus-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: "Paytone One";
+    src: url(../fuentes/PaytoneOne-Regular.ttf) format('truetype');
+}
 *{
     box-sizing: border-box;
     list-style: none;
@@ -8,9 +16,10 @@
 .cosasquevamosmirando{
     color: #8F2800;
     color: #B54926;
-    color: #FFAF3B;
+    color: #ffaf3b;
     color: #FFF0A6;
     color: #468965;
+
 }
 body{
     min-width:320px;

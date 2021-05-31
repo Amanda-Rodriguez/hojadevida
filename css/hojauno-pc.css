@@ -61,6 +61,7 @@ nav>ul{
     padding: 30px;
 }
 #nav2{
+    display: block;
     width: 200px;
     height: 0;
     position:sticky;
