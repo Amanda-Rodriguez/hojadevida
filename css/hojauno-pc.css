@@ -1,18 +1,13 @@
-body{
-    background-color: #63676b;
-}
 header{
     width: 100%;
     height: 600px; 
-    box-shadow: 0 0 5px 0 #afafaf;
     border-radius: 5px;
 }
 #secciones{
     width: 1080px;
     margin: auto;
 }
-
-h1{
+#titulo{
     width: 100%;
     height:300px;
     position: relative;
@@ -20,7 +15,6 @@ h1{
     font-size:100px;
     text-align: center;
 }
-
 #comentario{
     width: 100%;
     height: 240px;
@@ -35,8 +29,8 @@ h1{
 }
 nav{
     display: block;
-    position: fixed;
-    width: 100%;
+    position: relative;
+    width: 100%;    
     z-index: 1;
 }
 nav>ul{
@@ -46,18 +40,16 @@ nav>ul{
     list-style-type: none;
     margin: 0;
     padding: 15px;
-    background-image:url(../imagenes/wood.jpg);
+    background-color: #231e2c;
 }
-
 .menu1{
     display: inline;
     font-size: 20px;
     padding: 10px;
     font-family:'Marcellus', serif;
 }
-.probando{
-    color:#FFAF3D;
-    opacity: 0.5;
+.pronav{
+    color:#FFAF3B;
     padding: 30px;
 }
 #nav2{
@@ -65,18 +57,15 @@ nav>ul{
     width: 200px;
     height: 0;
     position:sticky;
-    top:0;
-    
-    }
+    top:0;   
+}
 #nav2>ul{
     position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 20px;
-    top: 100px;
-    
+    top: 100px;    
 }
-
 .menu2{
     display: block;
     width: 180px;
@@ -90,15 +79,14 @@ nav>ul{
     border-right: 1px solid #478b67;
     border-bottom: 1px solid #5f9c7b;
     border-left: 1px solid #478b67;
-    background: #468965;
-    transition: width .5s;
-    
+    background: #231e2c;
+    transition: width .5s;   
 }
 .menu2:hover{
-    width:200px;
-    
+    width:200px;   
 }
 .derecha{
+    
     margin-left:200px;
     width: 880px;
     height: 100%;
@@ -108,12 +96,10 @@ h2{
     width: 100%;
     height: 50px;
     position: relative;
-    text-align: left;   
+    text-align: left; 
+    color:#FFAF3B;  
 }
-
-p{
-    text-align: left;
+.texto{
+    width: 600px;
 }
-.fotoperfil:hover{
-    transform: translate(10px, 2px);
-}
+/* Aqui tengo que arreglar version solo pc y mandar lo otro a phone.

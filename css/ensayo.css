@@ -1,0 +1,12 @@
+.hot{
+background-color: red;
+}
+.cool{
+    background-color: blue;
+}
+.complete{  
+    font-size: x-large;
+    background-color: gray;;
+}
+em{ display: none;
+}
