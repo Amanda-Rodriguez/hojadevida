@@ -22,36 +22,35 @@
 }
 
 .cosasquevamosmirando{
-    color: #8F2800;
-    color: #B54926;
-    color: #ffaf3b;
-    color: #FFF0A6;
-    color: #468965;
+    color:#8F2800;
+    color:#B54926;
+    color:#ffaf3b;
+    color:#FFF0A6;
+    color:#468965;
     color:#ffff00;
-    color: #fff4ff;
-    color: #a591cc;
+    color:#fff4ff;
+    color:#a591cc;
     color:#ffff5a;
-    color: #c7cc00;
+    color:#c7cc00;
     color:#231e2c;
 }
 body{
     min-width:320px;
+    background-color: rgb(245,245,245);
     margin: 0;
     padding: 0;
-    /*background-color: beige;*/
 }
+/*Elementos del header*/
 header{
     position: relative;
     width: 100%;
     height: 100vh;
-    /*background-image: url("../imagenes/empty-blackboard1-min.jpg");*/
-    background-position:left;   
+        
 }
 #fondo{
     width: 100%;
     height: 100%;
-    background-color:#231e2c;
-    /*opacity: 0.3;  */  
+    background-color:#231e2c;  
 }
 #titulo{
     position: absolute;
@@ -72,42 +71,30 @@ header{
     color:#FFAF3B;
     text-align: center;
 }
+/*Elementos de las secciones*/
 .seccion{
     display: inline-block;
-    height: 100vh;
-    text-align: right;
+    min-height:100vh;
+    text-align: justify;
     font-size:20px;
     color: black; 
     margin: 20px;
-    /*background-size: cover;*/
     box-shadow: 0 0 5px 0 #afafaf;
-    border-radius: 3px;
-    
+    border-radius: 3px;    
 }
 
-/*.seccion>p,h2, h1, #comentario{
-    mix-blend-mode: exclusion;
-}*/
-
 .fotoperfil{
-    /*position: absolute;*/
-    transform: translateX(30px)translateY(15px);
+    position: relative;
+    margin: auto;
+    margin-bottom: 5px;
     width:200px;
     height: 190px;
     background-image: url("../imagenes/foto-min.jpg");
     background-size: cover;
     background-position: center;
 }
-/*.marco{
-    position: relative;
-    border: solid white 1px;
-    width: 260px;
-    height: 220px;
-    margin: auto;
-    text-align: center;
-}*/
 p{
-    padding: 10px;
+    padding: 15px;
     line-height:1.5;
     font-family: 'indira', serif;
 }
@@ -118,3 +105,4 @@ h2{
     text-align: left;
     font-size: 40px;
 }
+/*Hace falta el nav, el color de los titulos, cuadrar las imagenes, ademas del footer.
