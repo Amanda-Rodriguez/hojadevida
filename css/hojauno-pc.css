@@ -1,3 +1,4 @@
+/*partes del header*/
 header{
     width: 100%;
     height: 600px; 
@@ -27,11 +28,11 @@ header{
     width: 100%;
     height: 100%;
 }
+/* Partes de la navegacion*/
 nav{
     display: block;
     position: relative;
     width: 100%;    
-    z-index: 1;
 }
 nav>ul{
     right: 0;
@@ -40,18 +41,17 @@ nav>ul{
     list-style-type: none;
     margin: 0;
     padding: 15px;
-    background-color: #231e2c;
-}
+} 
 .menu1{
     display: inline;
-    font-size: 20px;
-    padding: 10px;
-    font-family:'Marcellus', serif;
+    font-size: 25px;
+    font-family:'indira', serif;
 }
 .pronav{
     color:#FFAF3B;
     padding: 30px;
 }
+/* Partes de la navegacion auxiliar*/
 #nav2{
     display: block;
     width: 200px;
@@ -72,12 +72,10 @@ nav>ul{
     padding: 10px;
     text-align: center;
     opacity: 0.7; 
-    font-family:'Marcellus',serif;
+    font-family:'indira',serif;
     font-size: 19px;
     color: white;
-    border-top: 1px solid #68bf90;
-    border-right: 1px solid #478b67;
-    border-bottom: 1px solid #5f9c7b;
+    border-bottom: 1px solid rgb(245,245,245);
     border-left: 1px solid #478b67;
     background: #231e2c;
     transition: width .5s;   
@@ -85,13 +83,12 @@ nav>ul{
 .menu2:hover{
     width:200px;   
 }
+/* Partes secciones*/
 .derecha{
-    
     margin-left:200px;
     width: 880px;
     height: 100%;
 }
-
 h2{
     width: 100%;
     height: 50px;
@@ -102,4 +99,4 @@ h2{
 .texto{
     width: 600px;
 }
-/* Aqui tengo que arreglar version solo pc y mandar lo otro a phone.
+/* Aqui tengo que arreglar version solo pc y mandar lo otro a phone.*/
