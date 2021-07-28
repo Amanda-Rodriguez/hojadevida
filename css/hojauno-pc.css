@@ -1,33 +1,19 @@
 /*partes del header*/
 header{
-    width: 100%;
     height: 600px; 
-    border-radius: 5px;
-}
-#secciones{
-    width: 1080px;
-    margin: auto;
 }
 #titulo{
-    width: 100%;
-    height:300px;
-    position: relative;
+    top:100px;
     padding: 50px;
     font-size:100px;
-    text-align: center;
 }
 #comentario{
-    width: 100%;
     height: 240px;
     padding-top: 80px;
-    position: relative;
     font-size: 40px;
+    bottom: 30px;
 }
-#fondo{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
+
 /* Partes de la navegacion*/
 nav{
     display: block;
@@ -62,8 +48,9 @@ nav>ul{
 #nav2>ul{
     position: absolute;
     list-style-type: none;
+    box-shadow: 0 0 5px 0 #FFAF3B;
     margin: 0;
-    padding: 20px;
+    left: -80px;
     top: 100px;    
 }
 .menu2{
@@ -74,7 +61,7 @@ nav>ul{
     opacity: 0.7; 
     font-family:'Marcellus',serif;
     font-size: 19px;
-    color: white;
+    color:#FFAF3B;
     border-bottom: 1px solid rgb(245,245,245);
     background: #231e2c;
     transition: width .5s;   
@@ -83,21 +70,30 @@ nav>ul{
     width:200px;   
 }
 /* Partes secciones*/
+#secciones{
+    width: 1080px;
+    margin: auto;
+}
+.fotoperfil{
+    width:350px;
+    height:350px;
+    top:20px;
+    margin:10px;
+}
+/*Derecha solo aplica al formato pc, separa el nav2 del espacio de la seccion*/
 .derecha{
     margin-left:200px;
     width: 880px;
-    height: 100%;
-    
-}
-h2{
-    width: 100%;
-    height: 50px;
-    position: relative;
-    text-align: left; 
-    color:#FFAF3B;  
+    height: 100%;  
 }
 .texto{
     width: 600px;
     text-align:justify;
 }
+
+h2{
+    width: 100%;
+    
+}
+
 /* Aqui tengo que arreglar version solo pc y mandar lo otro a phone.*/
