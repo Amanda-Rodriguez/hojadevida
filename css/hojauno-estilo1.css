@@ -7,7 +7,7 @@
     src: url(../fuentes/PaytoneOne-Regular.ttf) format('truetype');
 }
 @font-face{
-    font-family:"smoku" ;
+     font-family:"smoku" ;
     src:url(../fuentes/Smokum-Regular.ttf) format('truetype');
 }
 @font-face{
@@ -56,8 +56,8 @@ header{
     opacity: 0.7;
     text-align: center;
     transition: transform 1s;
-
 }
+
 #comentario{
     position: absolute;
     font-family:'indira', sans-serif;
@@ -65,20 +65,28 @@ header{
     text-align: center;
     width: 100%;
 }
+/* Partes de la navegacion*/
+nav{
+    background-color: #231e2c;
+}
+.pronav{
+    color:#FFAF3B;
+}
 /*Elementos de las secciones*/
 .seccion{
     display: block;
     text-align: justify;
     color: black; 
     box-shadow: 0 0 5px 0 #afafaf;
-    border-radius: 3px;    
+    border-radius: 3px; 
 }
-.fotoperfil{
+/*.fotoperfil{
     position: relative;
     background-image: url("../imagenes/fotom.png");
     background-size: cover;
     background-position: center;
-}
+    box-shadow: 0 0 5px 0 #afafaf;
+}*/
 p{
     line-height:1.5;
     font-family: 'indira', serif;
@@ -92,6 +100,8 @@ h2{
     bottom: 5px;
 }
 footer{
-    color:black;
+    color:#ffaf3b;
+    background-color: #231e2c;
+    height: 200px;
 }
 /* cuadrar las imagenes, ademas del footer.

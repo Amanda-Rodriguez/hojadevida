@@ -7,6 +7,12 @@ header{
     padding: 50px;
     font-size:100px;
 }
+#botonmenu{
+    display: none;
+}
+#fotologo{
+    display:none;
+}
 #comentario{
     height: 240px;
     padding-top: 80px;
@@ -17,8 +23,13 @@ header{
 /* Partes de la navegacion*/
 nav{
     display: block;
-    position: relative;
-    width: 100%;    
+    position: fixed;
+    width: 100%;  
+    z-index: 1;  
+    transition: transform 0.5s;
+}
+.ocultarnav{
+    transform: translateY(-50px);
 }
 nav>ul{
     right: 0;
@@ -34,7 +45,6 @@ nav>ul{
     font-family:'indira', serif;
 }
 .pronav{
-    color:#FFAF3B;
     padding: 30px;
 }
 /* Partes de la navegacion auxiliar*/
@@ -48,9 +58,8 @@ nav>ul{
 #nav2>ul{
     position: absolute;
     list-style-type: none;
-    box-shadow: 0 0 5px 0 #FFAF3B;
     margin: 0;
-    left: -80px;
+    left: 10px;
     top: 100px;    
 }
 .menu2{
@@ -58,11 +67,12 @@ nav>ul{
     width: 180px;
     padding: 10px;
     text-align: center;
-    opacity: 0.7; 
+    opacity: 0.9; 
     font-family:'Marcellus',serif;
     font-size: 19px;
     color:#FFAF3B;
     border-bottom: 1px solid rgb(245,245,245);
+    box-shadow: 0 0 5px 0 #FFAF3B;
     background: #231e2c;
     transition: width .5s;   
 }
@@ -71,10 +81,20 @@ nav>ul{
 }
 /* Partes secciones*/
 #secciones{
-    width: 1080px;
+    width: 960px;
     margin: auto;
 }
+.seccion{
+    height: 600px;
+    margin-top: 30px;
+}
 .fotoperfil{
+    display: block;
+    position: relative;
+    background-image: url("../imagenes/fotom.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5px 0 #afafaf;
     width:350px;
     height:350px;
     top:20px;
