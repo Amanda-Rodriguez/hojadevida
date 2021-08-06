@@ -67,12 +67,11 @@ nav>ul{
     width: 180px;
     padding: 10px;
     text-align: center;
-    opacity: 0.9; 
+    opacity: 1; 
     font-family:'Marcellus',serif;
     font-size: 19px;
     color:#FFAF3B;
     border-bottom: 1px solid rgb(245,245,245);
-    box-shadow: 0 0 5px 0 #FFAF3B;
     background: #231e2c;
     transition: width .5s;   
 }
