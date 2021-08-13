@@ -26,10 +26,11 @@ nav{
     position: fixed;
     width: 100%;  
     z-index: 1;  
+    transform: translateY(-50px);
     transition: transform 0.5s;
 }
-.ocultarnav{
-    transform: translateY(-50px);
+.mostrarnav{
+    transform: translateY(0px);
 }
 nav>ul{
     right: 0;
@@ -86,33 +87,26 @@ nav>ul{
 .seccion{
     height: 600px;
     margin-top: 30px;
+    width: 960px;
 }
-.fotoperfil{
-    display: block;
-    position: relative;
-    background-image: url("../imagenes/fotom.png");
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 0 5px 0 #afafaf;
-    width:350px;
-    height:350px;
-    top:20px;
-    margin:10px;
+
+#fotoperfil{
+    float:right;
+    width: 278px;
+    height: 279px;
+    margin: 0 20px 20px 20px;
 }
 /*Derecha solo aplica al formato pc, separa el nav2 del espacio de la seccion*/
-.derecha{
-    margin-left:200px;
-    width: 880px;
-    height: 100%;  
-}
+
 .texto{
-    width: 600px;
+    width: 680px;
     text-align:justify;
+    margin-left:200px;
 }
 
 h2{
     width: 100%;
-    
+    margin-left:200px;
 }
 
 /* Aqui tengo que arreglar version solo pc y mandar lo otro a phone.*/
