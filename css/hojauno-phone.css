@@ -1,4 +1,3 @@
-
 body{
     min-width:320px;
 }
@@ -6,16 +5,9 @@ body{
 header{
     height: 100vh;    
 }
-
 #titulo{
     top: 80px;
     font-size: 60px;
-}
-#botonmenu{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    fill: red;
 }
 #fotologo{
     position: relative;
@@ -43,17 +35,28 @@ nav,#nav2{
     font-size:20px;
     margin: 10px;   
 }
-.fotoperfil{
-    display: none;
-    /*width:260px;
-    height:260px;
-    margin: auto;*/
-}
 p{
     padding: 15px;
 }
 h2{
     font-size: 40px;
     padding: 15px;
+}
+footer{
+    color:#ffaf3b;
+    background-color: #231e2c;
+    min-height:200px;
+}
+
+.hijo{
+    padding: auto;
+}
+.caja{
+    display: grid;
+    margin-left: 20px;
+    grid-template-columns: 50px 50px 50px 50px;
+}
+.muñeco{
+    padding: auto;
 }
 /*cuadrar las imagenes, ademas del footer.

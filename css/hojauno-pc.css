@@ -39,6 +39,13 @@ nav>ul{
     list-style-type: none;
     margin: 0;
     padding: 15px;
+}  
+nav>li{
+    padding: 10px 20px;
+    background-color: red;
+}
+nav>li:hover{
+    background-color: #FFAF3B;
 } 
 .menu1{
     display: inline;
