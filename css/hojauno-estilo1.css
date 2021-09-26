@@ -66,6 +66,9 @@ header{
 }
 /* Partes de la navegacion*/
 nav{
+    background-color:#afafaf;
+}
+ul>li:hover{
     background-color:#231e2c;
 }
 .pronav{

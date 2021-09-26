@@ -9,4 +9,3 @@ function calculateArea(w,h){
     var area = w * h;
     return area;
 }
-ver p= calculateArea(3,5);
